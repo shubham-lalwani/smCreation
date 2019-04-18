@@ -1,0 +1,32 @@
+<nb-flip-card [showToggleButton]="false" [flipped]="flipped">
+  <nb-card-front>
+    <nb-card size="medium">
+      <nb-card-header>
+          <button nbButton class="flip" (click)="toggleView()"><i class="nb-arrow-right"></i></button>
+        <div class="title">Diet Analysis</div>
+      </nb-card-header>
+      <nb-card-body>
+        <div class="chart-container">
+          <div class="chart-header">
+            <ngx-legend-chart [legendItems]="chartLegend"></ngx-legend-chart>
+          </div>
+          <ngx-visitors-analytics-chart [chartData]="visitorsAnalyticsData"></ngx-visitors-analytics-chart>
+        </div>
+      </nb-card-body>
+
+    </nb-card>
+  </nb-card-front>
+
+  <nb-card-back>
+    <nb-card size="medium">
+        <nb-card-header>
+            <button nbButton class="flip" (click)="toggleView()"><i class="nb-arrow-right"></i></button>
+          <div class="title">Diet Analysis</div>
+        </nb-card-header>
+        <nb-card-body>
+      <ngx-visitors-statistics [value]="pieChartValue"></ngx-visitors-statistics>
+    </nb-card-body>
+
+    </nb-card>
+  </nb-card-back>
+</nb-flip-card>
