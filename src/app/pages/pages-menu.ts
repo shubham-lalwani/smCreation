@@ -11,27 +11,27 @@ export const MENU_ITEMS: NbMenuItem[] = [
     title: 'FEATURES',
     group: true,
   },  
-  {
-    title: 'Charts',
-    icon: 'nb-bar-chart',
-    children: [
-      {
-        title: 'Echarts',
-        link: '/pages/charts/echarts',
-      },
-      {
-        title: 'Charts.js',
-        link: '/pages/charts/chartjs',
-      },
-      {
-        title: 'D3',
-        link: '/pages/charts/d3',
-      },
-    ],
-  },
+  // {
+  //   title: 'Charts',
+  //   icon: 'nb-bar-chart',
+  //   children: [
+  //     {
+  //       title: 'Echarts',
+  //       link: '/pages/charts/echarts',
+  //     },
+  //     {
+  //       title: 'Charts.js',
+  //       link: '/pages/charts/chartjs',
+  //     },
+  //     {
+  //       title: 'D3',
+  //       link: '/pages/charts/d3',
+  //     },
+  //   ],
+  // },
   {
     title: 'Consult Fitness Experts',
-    icon: 'nb-bar-chart',
+    icon: 'nb-person',
     children: [
       {
         title: 'Physiotherapist',
@@ -45,7 +45,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
   },
   {
     title: 'Fitness Partners',
-    icon: 'nb-bar-chart',
+    icon: 'nb-heart',
     children: [
       {
         title: 'Golds Gym',
@@ -68,22 +68,22 @@ export const MENU_ITEMS: NbMenuItem[] = [
   },
   {
     title: 'Membership',
-    icon: 'nb-bar-chart',
+    icon: 'nb-edit',
     link:''
   },
   {
     title: 'FAQ',
-    icon: 'nb-bar-chart',
+    icon: 'nb-help',
     link:''
   },
   {
     title: 'Contact US',
-    icon: 'nb-bar-chart',
+    icon: 'nb-keypad',
     link:''
   },
   {
     title: 'Careers',
-    icon: 'nb-bar-chart',
+    icon: 'nb-star',
     link:''
   },
 
